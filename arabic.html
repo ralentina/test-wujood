@@ -1,0 +1,40 @@
+<div id='map' style="width:100%;height:100%;"></div>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+<script
+  src='https://rawcdn.githack.com/Viglino/Canvas-TextPath/9a757d745071e0eaf2440a1d02117dad38f5b6dd/ctxtextpath.js'></script>
+<script
+  src='https://rawcdn.githack.com/yakitoritabetai/Leaflet.LabelTextCollision/90fe755cc7ec5d97b71e2e953464fa5369d6e655/dist/L.LabelTextCollision.js'></script>
+<script src='https://raw.githack.com/triedeti/Leaflet.streetlabels/master/src/Leaflet.streetlabels.js'></script>
+<script src='demo/jerusalem.js'></script>
+<script>
+  var streetLabelsRenderer = new L.StreetLabels({
+    collisionFlg: true,
+    propertyName: 'name_ar',
+    showLabelIf: function (layer) {
+      return true; //layer.properties.type == "primary";
+    },
+    fontStyle: {
+      dynamicFontSize: false,
+      fontSize: 14,
+      fontSizeUnit: "px",
+      lineWidth: 4.0,
+      fillStyle: "black",
+      strokeStyle: "white",
+    },
+  });
+
+  //Load the Dataset
+  var jerusalemDataset = L.geoJSON(jerusalem, {});
+
+
+  var baseLayer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+  });
+  var map = L.map('map', {
+    renderer: streetLabelsRenderer, //Custom Canvas Renderer
+    layers: [baseLayer, jerusalemDataset],
+  }).setView([31.7802828, 35.2294229], 16);
+
+  L.control.layers({ "OSM": baseLayer }, { "jerusalem Dataset": jerusalemDataset,}).addTo(map);
+</script>
