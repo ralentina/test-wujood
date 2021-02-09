@@ -1,0 +1,30 @@
+var json_Organisations_9 = {
+"type": "FeatureCollection",
+"name": "Organisations_9",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "NAME_EN": "Al Ma'mal Foundation for Contemporary Art", "NAME_AR": null, "CONTACT_MAIN": " info@almamalfoundation.org" }, "geometry": { "type": "Point", "coordinates": [ 35.22674837, 31.77814308 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Bassem's Gallery & Cafe", "NAME_AR": null, "CONTACT_MAIN": "brokencitygallerycafe@gmail.com" }, "geometry": { "type": "Point", "coordinates": [ 35.23288, 31.780153 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "The Austrian Hospice ", "NAME_AR": null, "CONTACT_MAIN": "Office@auistrianhospice.com" }, "geometry": { "type": "Point", "coordinates": [ 35.2315686, 31.7803259 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Bint Al-Balad", "NAME_AR": null, "CONTACT_MAIN": "melia@bezeqint.net" }, "geometry": { "type": "Point", "coordinates": [ 35.22686811, 31.77863217 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Yabous Cultural Centre", "NAME_AR": null, "CONTACT_MAIN": "muna@yabous.org" }, "geometry": { "type": "Point", "coordinates": [ 35.230579, 31.7860788 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Palestinian Art Court - al Hoash", "NAME_AR": null, "CONTACT_MAIN": "info@alhoashgallery.org" }, "geometry": { "type": "Point", "coordinates": [ 35.232464, 31.78613 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "The Edward Said National Conservatory of Music", "NAME_AR": null, "CONTACT_MAIN": " +972-(0)2-627-1711 " }, "geometry": { "type": "Point", "coordinates": [ 35.2308657, 31.7860035 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "The Educational Bookshop. ", "NAME_AR": null, "CONTACT_MAIN": "mahmoud@educationalbookshop.com" }, "geometry": { "type": "Point", "coordinates": [ 35.2288698, 31.7856756 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Fusha Falastiniyyeh", "NAME_AR": null, "CONTACT_MAIN": "Noor@shamsactivities.com" }, "geometry": { "type": "Point", "coordinates": [ 35.232758, 31.786012 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "The Palestinian National Theater ", "NAME_AR": null, "CONTACT_MAIN": "Info@pnt-pal.org" }, "geometry": { "type": "Point", "coordinates": [ 35.23047767, 31.79144632 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Dar Al-Tifel Al-Arabi ", "NAME_AR": null, "CONTACT_MAIN": " darinfo@dartifl.org" }, "geometry": { "type": "Point", "coordinates": [ 35.23037696, 31.7893384 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "The Bookshop in the American Colony Hotel", "NAME_AR": null, "CONTACT_MAIN": " thebooksellerofjerusalem@gmail.com" }, "geometry": { "type": "Point", "coordinates": [ 35.2292943, 31.7891735 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Sunbula ", "NAME_AR": null, "CONTACT_MAIN": "info@sunbula.org" }, "geometry": { "type": "Point", "coordinates": [ 35.23020789, 31.79349044 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Princess Basma Centre", "NAME_AR": null, "CONTACT_MAIN": "ali.aweidah@basma-centre.org" }, "geometry": { "type": "Point", "coordinates": [ 35.24737118, 31.7837371 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Wadi Hilweh Information Center ", "NAME_AR": null, "CONTACT_MAIN": "info@silwanic.net" }, "geometry": { "type": "Point", "coordinates": [ 35.23528505, 31.77371889 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Women’s  Organization ANabi Samuel", "NAME_AR": null, "CONTACT_MAIN": "arrej200@hotmail.com" }, "geometry": { "type": "Point", "coordinates": [ 35.18732, 31.83616 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Beit Doqu Development Society ", "NAME_AR": null, "CONTACT_MAIN": "ikrema2004@hotmail.com" }, "geometry": { "type": "Point", "coordinates": [ 35.13357, 31.85873 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "The Cultural Forum Center ", "NAME_AR": null, "CONTACT_MAIN": "Info@cfc-pal.org" }, "geometry": { "type": "Point", "coordinates": [ 35.11137, 31.85323 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "AlWalajeh Women’s Club ", "NAME_AR": "النادي النسوي - الولجة", "CONTACT_MAIN": "samya-alaraj@hotmail.com" }, "geometry": { "type": "Point", "coordinates": [ 35.1647187, 31.7271588 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Dar Abu Hassan Guest House", "NAME_AR": null, "CONTACT_MAIN": "hassan.muamer@gmail.com" }, "geometry": { "type": "Point", "coordinates": [ 35.1412648, 31.7288699 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Noor Al-Qamar", "NAME_AR": null, "CONTACT_MAIN": "052-955-0416" }, "geometry": { "type": "Point", "coordinates": [ 35.26041, 31.80575 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Tahhadi ", "NAME_AR": null, "CONTACT_MAIN": "052-316-9782" }, "geometry": { "type": "Point", "coordinates": [ 35.32519734, 31.81247514 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Khayma 35", "NAME_AR": null, "CONTACT_MAIN": "058-433-8420" }, "geometry": { "type": "Point", "coordinates": [ 35.29980939, 31.75942037 ] } }
+]
+}
