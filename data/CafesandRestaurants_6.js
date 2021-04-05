@@ -1,6 +1,6 @@
-var json_Cafesandrestaurants_6 = {
+var json_CafesandRestaurants_6 = {
 "type": "FeatureCollection",
-"name": "Cafesandrestaurants_6",
+"name": "CafesandRestaurants_6",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "NAME_EN": "Ambassador", "NAME_AR": "مطعم الامباسادور" }, "geometry": { "type": "Point", "coordinates": [ 35.2203245, 31.7935886 ] } },
@@ -56,13 +56,13 @@ var json_Cafesandrestaurants_6 = {
 { "type": "Feature", "properties": { "NAME_EN": "Patisserie Jack", "NAME_AR": "حلويات جاك" }, "geometry": { "type": "Point", "coordinates": [ 35.229472, 31.779034 ] } },
 { "type": "Feature", "properties": { "NAME_EN": "Sultan", "NAME_AR": "مطعم السلطان" }, "geometry": { "type": "Point", "coordinates": [ 35.229375, 31.777647 ] } },
 { "type": "Feature", "properties": { "NAME_EN": "Tala Hummus", "NAME_AR": "حمّص تالا" }, "geometry": { "type": "Point", "coordinates": [ 35.227182, 31.77742 ] } },
-{ "type": "Feature", "properties": { "NAME_EN": "Zalatimo Sweets", "NAME_AR": null }, "geometry": { "type": "Point", "coordinates": [ 35.226853, 31.826594 ] } },
-{ "type": "Feature", "properties": { "NAME_EN": "Jafar Sweets", "NAME_AR": null }, "geometry": { "type": "Point", "coordinates": [ 35.2262954, 31.8352522 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Zalatimo Sweets", "NAME_AR": "حلويات زلاطيمو" }, "geometry": { "type": "Point", "coordinates": [ 35.226853, 31.826594 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Jafar Sweets", "NAME_AR": "حلويات جعفر" }, "geometry": { "type": "Point", "coordinates": [ 35.2262954, 31.8352522 ] } },
 { "type": "Feature", "properties": { "NAME_EN": "Al-Demashqi", "NAME_AR": "حلويات الدمشقي" }, "geometry": { "type": "Point", "coordinates": [ 35.2251643, 31.823611 ] } },
 { "type": "Feature", "properties": { "NAME_EN": "Villa Pizza", "NAME_AR": " فيلا بيتزا " }, "geometry": { "type": "Point", "coordinates": [ 35.2278879, 31.8317434 ] } },
 { "type": "Feature", "properties": { "NAME_EN": "Abu Shukri Restaurant", "NAME_AR": "ابو شكري" }, "geometry": { "type": "Point", "coordinates": [ 35.2278535, 31.8334731 ] } },
-{ "type": "Feature", "properties": { "NAME_EN": "Garage Shop", "NAME_AR": null }, "geometry": { "type": "Point", "coordinates": [ 35.2262954, 31.8352522 ] } },
-{ "type": "Feature", "properties": { "NAME_EN": "Tart Bakery", "NAME_AR": null }, "geometry": { "type": "Point", "coordinates": [ 35.2028525, 31.7488048 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Garage Shop", "NAME_AR": "مطعم كراج" }, "geometry": { "type": "Point", "coordinates": [ 35.2262954, 31.8352522 ] } },
+{ "type": "Feature", "properties": { "NAME_EN": "Tart Bakery", "NAME_AR": "مطعم تارت" }, "geometry": { "type": "Point", "coordinates": [ 35.2028525, 31.7488048 ] } },
 { "type": "Feature", "properties": { "NAME_EN": "Star Café", "NAME_AR": " ستار كافيه" }, "geometry": { "type": "Point", "coordinates": [ 35.20568907, 31.74851519 ] } }
 ]
 }
